@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bags &amp; Bits — Carteras & accesorios</title>
+  <meta name="description" content="Carteras y accesorios para acompañarte todos los días. Explorá la colección y consultá tu pedido por WhatsApp.">
+  <meta name="theme-color" content="#f6f3ed">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#coleccion">Ir al catálogo</a>
+  <div class="announcement" id="announcement">Pequeños detalles. Mucho estilo.</div>
+  <header class="header">
+    <a class="logo" href="#" aria-label="Inicio"><span data-brand>Bags &amp; Bits</span><small data-tagline>CARTERAS & ACCESORIOS</small></a>
+    <nav aria-label="Principal"><a href="#coleccion">Colección</a><a href="#nosotras">Nuestra esencia</a><a href="#preguntas">Preguntas</a></nav>
+    <button class="bag-button" id="open-cart" aria-label="Abrir carrito"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14l1 14H4L5 7Zm3 0V5a4 4 0 0 1 8 0v2"/></svg><span class="cart-label">Mi bolsa</span><span id="cart-count">0</span></button>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy"><p class="eyebrow">TU PRÓXIMO IMPRESCINDIBLE</p><h1>Ese detalle<br>que te hace <em>vos.</em></h1><p>Carteras y accesorios para acompañar tus días.<br>Elegí el que cuenta tu historia.</p><a class="button dark" href="#coleccion">Descubrí la colección <span>↗</span></a><div class="hero-note"><span class="line"></span> PARA TODOS TUS PLANES</div></div>
+      <div class="hero-art"><span class="vertical-label">THE EVERYDAY EDIT</span><img src="assets/hero.svg" alt="Ilustración de una cartera tote caramelo sobre un pedestal" fetchpriority="high"><div class="hero-caption"><span>01 / LA COLECCIÓN</span><span>Bags &amp; Bits. Para vos.</span></div></div>
+    </section>
+    <div class="benefits"><span>✧ Estilo que te acompaña</span><span>↗ Atención personalizada</span><span>♡ Elegí, consultá, disfrutá</span></div>
+    <section class="collection section" id="coleccion">
+      <div class="section-heading"><div><p class="eyebrow">ENCONTRÁ TU FAVORITA</p><h2>Tu día, tu estilo.</h2></div><p>De lunes a domingo.<br>De lo esencial a lo especial.</p></div>
+      <div class="catalog-tools"><div class="filters" id="filters" aria-label="Categorías"><button class="active" data-category="Todas" aria-pressed="true">Todas</button><button data-category="Carteras" aria-pressed="false">Carteras</button><button data-category="Bandoleras" aria-pressed="false">Bandoleras</button><button data-category="Accesorios" aria-pressed="false">Accesorios</button></div><div class="search-sort"><label class="search"><span class="sr-only">Buscar productos</span><input id="search" type="search" placeholder="Buscar tu favorita…"></label><label><span class="sr-only">Ordenar productos</span><select id="sort"><option value="featured">Destacados</option><option value="price-asc">Menor precio</option><option value="price-desc">Mayor precio</option><option value="name">Nombre A–Z</option></select></label></div></div>
+      <div class="catalog-meta"><span id="result-count" role="status">Cargando colección…</span><span>UNA SELECCIÓN CON PERSONALIDAD</span></div>
+      <div class="product-grid" id="products"></div><p id="empty" hidden>No encontramos productos con esa búsqueda. Probá con otro nombre o categoría.</p>
+      <p class="demo-note" id="demo-note" hidden>Catálogo de muestra · Imágenes ilustrativas y precios de ejemplo.</p>
+    </section>
+    <section class="story" id="nosotras"><div class="story-art"><span class="story-monogram">b.</span><p>Menos vueltas.<br>Más <em>vos.</em></p><span class="story-stamp">LOS DETALLES IMPORTAN</span></div><div class="story-copy"><p class="eyebrow">NUESTRA ESENCIA</p><h2>Las cosas lindas<br>se llevan con vos.</h2><p>Creemos en los detalles que transforman un día cualquiera: una cartera que va con todo, un accesorio que te encanta, ese pequeño gusto que elegís para vos.</p><p>Por eso reunimos piezas con personalidad y te acompañamos a encontrar tu favorita, con una atención cercana y sin apuro.</p><a href="#coleccion" class="text-link">Encontrá tu próximo favorito ↗</a></div></section>
+    <section class="how section"><p class="eyebrow">ASÍ DE SIMPLE</p><h2>De nuestra colección a tus manos.</h2><div class="steps"><article><span>01</span><h3>Elegí lo que te gusta</h3><p>Recorré la colección, elegí un color y agregá tus favoritos a la bolsa.</p></article><article><span>02</span><h3>Conversamos por WhatsApp</h3><p>Envianos tu selección. Confirmamos disponibilidad, precio y medios de pago.</p></article><article><span>03</span><h3>Coordinamos la entrega</h3><p>Acordamos la opción de entrega y su costo antes de confirmar tu compra.</p></article></div></section>
+    <section class="faq section" id="preguntas"><div><p class="eyebrow">TE AYUDAMOS A ELEGIR</p><h2>Lo que querés saber.</h2><p>Una compra linda empieza<br>con todas tus dudas resueltas.</p></div><div><details><summary>¿Cómo hago mi pedido?</summary><p>Agregá productos a la bolsa y elegí “Consultar por WhatsApp”. Se abrirá un mensaje con tu selección para que la tienda confirme disponibilidad y condiciones.</p></details><details><summary>¿Puedo pagar en la página?</summary><p>Los pedidos se coordinan personalmente por WhatsApp. Consultá los medios de pago disponibles antes de confirmar tu compra.</p></details><details><summary>¿Hacen envíos?</summary><p>Consultanos por las zonas de cobertura, los tiempos y el costo de entrega. Estos datos se confirman antes de concretar cada pedido.</p></details><details><summary>¿Cómo consulto por cambios?</summary><p>Antes de comprar, pedinos las condiciones de cambios y devoluciones que correspondan al producto y a tu ubicación.</p></details></div></section>
+    <section class="contact-banner"><p class="eyebrow">UN DETALLE PARA VOS</p><h2>Tu favorita te está esperando.</h2><a href="#coleccion" class="button light">Volver a la colección ↗</a></section>
+  </main>
+  <footer><div class="logo"><span data-brand>Bags &amp; Bits</span><small data-tagline>CARTERAS & ACCESORIOS</small></div><p>Pequeños detalles. Mucho estilo.</p><div><a href="#coleccion">Colección</a><a href="#preguntas">Ayuda</a><a id="instagram" hidden target="_blank" rel="noopener noreferrer">Instagram ↗</a></div><small>© <span id="year"></span> <span data-brand>Bags &amp; Bits</span></small></footer>
+  <dialog id="product-dialog" class="product-dialog" aria-labelledby="product-title"><button class="close" data-close="product-dialog" aria-label="Cerrar producto">×</button><div id="product-detail"></div></dialog>
+  <dialog id="cart-dialog" class="cart-dialog" aria-labelledby="cart-title"><div class="cart-header"><div><p class="eyebrow">TUS FAVORITOS</p><h2 id="cart-title">Mi bolsa</h2></div><button class="close" data-close="cart-dialog" aria-label="Cerrar carrito">×</button></div><div id="cart-items"></div><div class="cart-bottom"><div class="total"><span>Subtotal</span><strong id="cart-total"></strong></div><p>Entrega y disponibilidad a confirmar.<br>Este pedido no reserva productos ni realiza un pago.</p><label class="order-note">Nota para la tienda<textarea id="order-note" rows="2" maxlength="400" placeholder="¿Es para regalo? ¿Tenés alguna consulta?"></textarea></label><button id="checkout" class="button dark">Consultar por WhatsApp ↗</button><p id="checkout-help" class="checkout-help"></p><button id="copy-order" class="text-link">Copiar mi pedido</button></div></dialog>
+  <div id="toast" role="status" class="toast"></div>
+</body>
+</html>

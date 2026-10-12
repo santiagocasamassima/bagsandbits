@@ -1,0 +1,157 @@
+{
+  "brand": "Bags & Bits",
+  "tagline": "Carteras & accesorios",
+  "currency": "COP",
+  "locale": "es-CO",
+  "whatsapp": "",
+  "instagramUrl": "https://www.instagram.com/bagsandbits_/",
+  "demo": true,
+  "announcement": "Pequeños detalles. Mucho estilo.",
+  "contactNote": "Consultanos por disponibilidad, medios de pago y opciones de entrega.",
+  "products": [
+    {
+      "id": "tote-siena",
+      "name": "Tote Siena",
+      "category": "Carteras",
+      "price": 189000,
+      "image": "assets/tote.svg",
+      "badge": "Favorita",
+      "description": "Una compañera versátil para los días con mil planes. Silueta amplia, líneas simples y un tono que combina con todo.",
+      "details": [
+        "Diseño amplio con asas dobles",
+        "Modelo ilustrativo: confirmar material y medidas",
+        "Disponibilidad a consultar"
+      ],
+      "colors": [
+        {
+          "name": "Caramelo",
+          "hex": "#956345"
+        },
+        {
+          "name": "Negro",
+          "hex": "#292722"
+        }
+      ]
+    },
+    {
+      "id": "bandolera-luna",
+      "name": "Bandolera Luna",
+      "category": "Bandoleras",
+      "price": 129000,
+      "image": "assets/luna.svg",
+      "badge": "Nueva",
+      "description": "Liviana, cómoda y con el espacio justo para llevar tus esenciales. Ese detalle que termina de armar tu look.",
+      "details": [
+        "Correa larga y solapa frontal",
+        "Modelo ilustrativo: confirmar material y medidas",
+        "Disponibilidad a consultar"
+      ],
+      "colors": [
+        {
+          "name": "Chocolate",
+          "hex": "#503b30"
+        },
+        {
+          "name": "Crema",
+          "hex": "#d9cbb9"
+        }
+      ]
+    },
+    {
+      "id": "mini-olivia",
+      "name": "Mini Olivia",
+      "category": "Carteras",
+      "price": 99000,
+      "image": "assets/mini.svg",
+      "badge": "",
+      "description": "Pequeña en tamaño, enorme en personalidad. Una mini cartera para acompañarte de una salida a otra.",
+      "details": [
+        "Asa superior y cierre de solapa",
+        "Modelo ilustrativo: confirmar material y medidas",
+        "Disponibilidad a consultar"
+      ],
+      "colors": [
+        {
+          "name": "Oliva",
+          "hex": "#74775c"
+        },
+        {
+          "name": "Negro",
+          "hex": "#292722"
+        }
+      ]
+    },
+    {
+      "id": "billetera-mila",
+      "name": "Billetera Mila",
+      "category": "Accesorios",
+      "price": 59000,
+      "image": "assets/wallet.svg",
+      "badge": "Esencial",
+      "description": "Todo en su lugar. Un accesorio simple y práctico que vas a querer llevar siempre con vos.",
+      "details": [
+        "Formato compacto",
+        "Modelo ilustrativo: confirmar material y medidas",
+        "Disponibilidad a consultar"
+      ],
+      "colors": [
+        {
+          "name": "Borgoña",
+          "hex": "#774244"
+        },
+        {
+          "name": "Caramelo",
+          "hex": "#956345"
+        }
+      ]
+    },
+    {
+      "id": "shoulder-amelia",
+      "name": "Shoulder Amelia",
+      "category": "Carteras",
+      "price": 149000,
+      "image": "assets/shoulder.svg",
+      "badge": "",
+      "description": "Curvas suaves y un aire atemporal. Una cartera al hombro que eleva los looks de todos los días.",
+      "details": [
+        "Asa corta al hombro",
+        "Modelo ilustrativo: confirmar material y medidas",
+        "Disponibilidad a consultar"
+      ],
+      "colors": [
+        {
+          "name": "Marfil",
+          "hex": "#ddd1be"
+        },
+        {
+          "name": "Chocolate",
+          "hex": "#503b30"
+        }
+      ]
+    },
+    {
+      "id": "neceser-nina",
+      "name": "Neceser Nina",
+      "category": "Accesorios",
+      "price": 45000,
+      "image": "assets/pouch.svg",
+      "badge": "",
+      "description": "Tus pequeños indispensables, juntos y a mano. Para llevar en la cartera o acompañarte en una escapada.",
+      "details": [
+        "Formato suave con cierre superior",
+        "Modelo ilustrativo: confirmar material y medidas",
+        "Disponibilidad a consultar"
+      ],
+      "colors": [
+        {
+          "name": "Arena",
+          "hex": "#b79c7e"
+        },
+        {
+          "name": "Oliva",
+          "hex": "#74775c"
+        }
+      ]
+    }
+  ]
+}
